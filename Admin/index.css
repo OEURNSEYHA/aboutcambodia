@@ -1,0 +1,79 @@
+*{
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style-type: none;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+
+.wrappage-login{
+    width: 100%;
+    height: 100vh;
+    background-color: #F4D03F;
+    background-image: linear-gradient(132deg, #F4D03F 0%, #16A085 100%);
+    
+
+}
+
+.login{
+    padding: 20px;
+    position: fixed;
+    top: 10%;
+    left: 50%;
+    transform: translate(-50%);
+    width: 380px;
+   
+   
+    border-radius: 10px;
+    box-shadow: 1px 0px 10px rgba(0, 0, 0, 25%);
+    border: 1px solid rgba(0, 0, 0, 25%);
+    
+}
+.login label{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+.login label span{
+    font-size: 16px;
+    font-weight: 600;
+    color:white;
+}
+.login input{
+    width: 100%;
+    padding: 10px 8px;
+    background-color: transparent;
+    border: 1px solid white ;
+    border-radius: 10px;
+    outline: none;
+    color: darkslategray;
+    font-weight: 500;
+    font-size: 14px;
+
+}
+
+.option-login{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.resetpassword{
+    font-weight: 600;
+    font-size: 16px;
+    color: red;
+    cursor: pointer;
+
+}
+
+.btn-login{
+    padding: 8px 16px;
+    background-color: green;
+    color: white;
+    font-size: 16px;
+    font-weight: 600;
+    border-radius: 5px;
+    cursor: pointer;
+}

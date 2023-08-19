@@ -1,0 +1,73 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+form.uploadpermission{
+    margin: 0 auto;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    background-color:white;
+    padding: 50px 20px 20px 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+form.uploadpermission input{
+    width: 300px;
+    padding: 10px 15px;
+    border:none;
+    outline: none;
+    border-radius: 5px;
+    border: 1px solid #dddd;
+    color: #666666;
+    font-weight: 400;
+
+
+}
+
+form.uploadpermission select{
+    border: 1px solid #dddd;
+    outline: none;
+    padding: 10px 15px ;
+    border-radius: 5px;
+    color: #666666;
+    font-weight: 400;
+
+}
+.btn-close{
+    width: 30px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 100%;
+    position: absolute;
+    right: 10px;
+    top: 10px;
+}
+.btn-save{
+    color: white;
+    width: fit-content;
+    padding: 8px 16px;
+    border-radius: 5px;
+    background-color: slateblue;
+    margin-top: 20px;
+    border: 1px solid #dddd;
+    cursor: pointer;
+
+}
+form.uploadpermission label{
+    font-size: 14px;
+    font-weight: 500;
+    color: #666666;
+}
+
+.btn-close:hover{
+    background-color: #dddd;
+  
+}
